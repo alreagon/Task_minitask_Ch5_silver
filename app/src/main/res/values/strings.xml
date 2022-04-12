@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Chapter_5_allminitask</string>
+    <string name="book_x1">Book x1</string>
+    <string name="candle_x2">Candle x2</string>
+    <string name="rpharganya00">Rpharganya00</string>
+    <string name="lunas">### LUNAS ###</string>
+    <string name="total">Total</string>
+    <string name="bayar">Bayar</string>
+    <string name="kembali">Kembali</string>
+    <string name="terima_kasih">Terima Kasih :)</string>
+    <string name="NAMA">Nama Produk</string>
+    <string name="tulisan">tulisan</string>
 </resources>
