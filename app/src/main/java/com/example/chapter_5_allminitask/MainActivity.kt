@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Toast
 import com.example.chapter_5_allminitask.databinding.ActivityMainBinding
+import com.example.chapter_5_allminitask.topic2.RetrofitMain
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
@@ -27,6 +28,14 @@ class MainActivity : AppCompatActivity() {
         }
         binding.topic1.setOnLongClickListener {
             Toast.makeText(this, "JSON dan REST API", Toast.LENGTH_SHORT).show()
+            true
+        }
+        binding.topic2.setOnClickListener {
+            val Intent = Intent(this, RetrofitMain::class.java)
+            startActivity(Intent)
+        }
+        binding.topic2.setOnLongClickListener {
+            Toast.makeText(this, "Networking Using Retrofit", Toast.LENGTH_SHORT).show()
             true
         }
 

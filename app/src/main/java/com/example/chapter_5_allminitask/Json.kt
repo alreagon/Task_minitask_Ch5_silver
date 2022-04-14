@@ -59,7 +59,6 @@ class Json : AppCompatActivity() {
             .put("store", "TokoPaedi")
             .put("addreess", "Bandung")
             .put("add_note", "All you can it")
-
         MainjsonObject.put("receipt", receipt)
 
         //=========================================
