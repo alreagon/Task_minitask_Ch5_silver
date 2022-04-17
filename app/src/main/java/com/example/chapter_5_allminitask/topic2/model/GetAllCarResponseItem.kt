@@ -1,4 +1,4 @@
-package com.example.chapter_5_allminitask.topic2
+package com.example.chapter_5_allminitask.topic2.model
 
 
 import android.os.Parcelable

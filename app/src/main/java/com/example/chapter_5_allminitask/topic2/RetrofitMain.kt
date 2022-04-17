@@ -1,10 +1,12 @@
 package com.example.chapter_5_allminitask.topic2
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.chapter_5_allminitask.databinding.ActivityRetrofitMainBinding
+import com.example.chapter_5_allminitask.topic2.model.GetAllCarResponseItem
 import com.example.chapter_5_allminitask.topic2.network.ApiClient
 import retrofit2.Call
 import retrofit2.Callback
@@ -23,6 +25,7 @@ class RetrofitMain : AppCompatActivity() {
 
     private fun setupView() {
         binding.floatingButton.setOnClickListener {
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
 

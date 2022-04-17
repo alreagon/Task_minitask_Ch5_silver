@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter_5_allminitask">
         <activity
+            android:name=".topic2.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".topic2.RetrofitMain"
             android:exported="false" />
         <activity

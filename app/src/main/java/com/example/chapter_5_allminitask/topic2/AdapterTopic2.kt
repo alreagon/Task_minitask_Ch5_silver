@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.chapter_5_allminitask.databinding.ItemContextBinding
+import com.example.chapter_5_allminitask.topic2.model.GetAllCarResponseItem
 
 class AdapterTopic2(private val onItemClick: OnClickListener) :
     RecyclerView.Adapter<AdapterTopic2.ViewHolder>() {
