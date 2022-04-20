@@ -15,4 +15,8 @@
     <string name="masukkan_email">Masukkan Email</string>
     <string name="masukkan_password">Masukkan Password</string>
     <string name="daftar">DAFTAR</string>
+    <string name="ini_buat_nama_mobil">Ini buat nama mobil</string>
+    <string name="ini_buat_price_car">Ini buat price car</string>
+    <string name="ini_buat_category">Ini buat category</string>
+    <string name="ini_buat_tittle">Ini buat Tittle</string>
 </resources>

@@ -9,6 +9,7 @@
     tools:context=".topic2.RegisterActivity">
 
     <ProgressBar
+        android:visibility="gone"
         android:id="@+id/pbLoading"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

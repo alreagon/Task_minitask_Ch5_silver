@@ -8,6 +8,7 @@ import android.view.WindowManager
 import android.widget.Toast
 import com.example.chapter_5_allminitask.databinding.ActivityMainBinding
 import com.example.chapter_5_allminitask.topic2.RetrofitMain
+import com.example.chapter_5_allminitask.topic3.MainViewModel
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
@@ -38,7 +39,14 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Networking Using Retrofit", Toast.LENGTH_SHORT).show()
             true
         }
-
+        binding.topic3.setOnClickListener {
+            val Intent = Intent(this, MainViewModel::class.java)
+            startActivity(Intent)
+        }
+        binding.topic3.setOnLongClickListener {
+            Toast.makeText(this, "ViewModel", Toast.LENGTH_SHORT).show()
+            true
+        }
 
 
     }

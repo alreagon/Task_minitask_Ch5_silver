@@ -50,6 +50,7 @@ class AdapterTopic2(private val onItemClick: OnClickListener) :
                 tvPrice.text = data.price.toString()
                 root.setOnClickListener{
                     onItemClick.onClickItem(data)
+                    //TODO INI TEMPAT CLICK LISTENER
                 }
 
             }
@@ -58,6 +59,7 @@ class AdapterTopic2(private val onItemClick: OnClickListener) :
 
     interface OnClickListener {
         fun onClickItem(data: GetAllCarResponseItem)
+        // TODO: INI TEMPAT CLICK LISTENER
     }
 
 }
